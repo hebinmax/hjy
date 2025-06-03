@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 # 设置页面标题
-st.title(':rainbow[图片展示]')
+st.title(':rainbow[何瑾渝小帅哥的私照]')
 
 # 创建侧边栏内容
 with st.sidebar:

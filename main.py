@@ -11,7 +11,7 @@ with st.sidebar:
 
 # 创建三个 Tab
 tab1, tab2, tab3 = st.tabs(["第一页", "第二页", "第三页"])
-image_count = len([name for name in os.listdir('pages/images') if os.path.isfile(os.path.join('pages/images', name))])
+image_count = len([name for name in os.listdir('images') if os.path.isfile(os.path.join('images', name))])
 with tab1:
     #获取文件夹里面的图片数量
     for i in range(1,17):
